@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  db:
+    container_name: db_postgres
+    restart: always
+    image: 'postgres:latest'
+    ports:
+      - 5432:5432
+
+    logging:
+      options:
+        max-size: 10m
+        max-file: '3'
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./db/postgres-data:/var/lib/postgresql/data
+      - ./db/sql/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
