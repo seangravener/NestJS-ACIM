@@ -3,7 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ContentsModule } from './contents/contents.module';
-import { Chapter } from './contents/entities/chapter.entity';
+import { Chapter, Section } from './contents/entities/chapter.entity';
 
 @Module({
   imports: [
@@ -16,7 +16,7 @@ import { Chapter } from './contents/entities/chapter.entity';
       password: 'postgres',
       database: 'postgres',
       autoLoadEntities: true,
-      entities: [Chapter],
+      entities: [Chapter, Section],
 
       // Development only
       synchronize: true,

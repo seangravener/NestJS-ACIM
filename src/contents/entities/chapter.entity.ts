@@ -11,14 +11,12 @@ export class Chapter {
   @Column()
   page: string;
 
-  // @OneToMany(() => ChapterSection, (section) => section.chapter, {
-  //   eager: true,
-  // })
-  // sections: ChapterSection[];
+  @OneToMany(() => Section, (section) => section.chapter)
+  sections: Section[];
 }
 
 @Entity()
-export class ChapterSection {
+export class Section {
   @PrimaryColumn()
   id: string;
 
@@ -28,8 +26,6 @@ export class ChapterSection {
   @Column()
   page: string;
 
-  // @ManyToOne(() => Chapter, (chapter) => chapter.sections, {
-  //   eager: false,
-  // })
+  @ManyToOne(() => Chapter, (chapter) => chapter.sections)
   chapter: Chapter;
 }
