@@ -1,8 +1,9 @@
-import { Column, Entity, ManyToOne, OneToMany, PrimaryColumn } from 'typeorm';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { Section } from './section.entity';
 
 @Entity()
 export class Chapter {
-  @PrimaryColumn()
+  @PrimaryGeneratedColumn()
   id: string;
 
   @Column()
@@ -13,19 +14,4 @@ export class Chapter {
 
   @OneToMany(() => Section, (section) => section.chapter)
   sections: Section[];
-}
-
-@Entity()
-export class Section {
-  @PrimaryColumn()
-  id: string;
-
-  @Column()
-  title: string;
-
-  @Column()
-  page: string;
-
-  @ManyToOne(() => Chapter, (chapter) => chapter.sections)
-  chapter: Chapter;
 }

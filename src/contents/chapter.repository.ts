@@ -1,12 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
+import { CreateChapterDto } from './dto/add-chapter.dto';
 
 import { Chapter } from './entities/chapter.entity';
-import { AddChapterDto } from './dto/add-chapter.dto';
 
 @Injectable()
-export class ContentsRepository {
+export class ChapterRepository {
   constructor(
     @InjectRepository(Chapter)
     private dataSource: Repository<Chapter>,
@@ -16,14 +16,18 @@ export class ContentsRepository {
     return [];
   }
 
-  async addChapter(dto: AddChapterDto): Promise<void> {
+  async getChapter(id: string): Promise<Chapter> {
+    return this.dataSource.findOne({ where: { id } });
+  }
+
+  async createChapter(dto: CreateChapterDto): Promise<Chapter> {
     const { page, title } = dto;
 
-    // const task = this.dataSource.create({
-    //   page,
-    //   title,
-    // });
+    const chapter = this.dataSource.create({
+      page,
+      title,
+    });
 
-    // return await this.dataSource.save(task);
+    return await this.dataSource.save(chapter);
   }
 }

@@ -1,12 +1,12 @@
 import { IsNotEmpty } from 'class-validator';
-import { Section } from '../entities/section.entity';
 
-export class CreateChapterDto {
+export class AddSectionDto {
+  @IsNotEmpty()
+  chapterId: string;
+
   @IsNotEmpty()
   title: string;
 
   @IsNotEmpty()
   page: string;
-
-  sections?: Section[];
 }
