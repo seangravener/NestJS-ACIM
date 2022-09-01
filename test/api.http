@@ -2,25 +2,69 @@ GET http://localhost:3000/
 
 ###
 
-GET http://localhost:3000/contents
+GET http://localhost:3000/contents/chapters
 
 ###
 
-POST http://localhost:3000/contents
+POST http://localhost:3000/contents/add/chapter
 content-type: application/json
 
 {
-    "title": "sample0",
-    "page": "11"
+    "id": "1",
+    "title": "Principles of Miracles",
+    "page": "7"
+}
+
+### 
+
+POST http://localhost:3000/contents/add/chapter
+content-type: application/json
+
+{
+    "id": "2",
+    "title": "Right Defense and Release from Fear",
+    "page": "55"
 }
 
 ###
 
-POST http://localhost:3000/contents/add
+POST http://localhost:3000/contents/add/chapter
 content-type: application/json
 
 {
-    "title": "section title",
-    "page": "11",
+    "id": "2",
+    "title": "Right Defense and Release from Fear",
+    "page": "55",
+    "sections": [
+        {
+            "title": "The Real Meaning of Possession",
+            "page": "55",
+            "chapterId": "2"
+        }
+    ]
+}
+
+
+###
+
+POST http://localhost:3000/contents/add/section
+content-type: application/json
+
+{
+    "title": "The Real Meaning of Possession",
+    "page": "55",
+    "number": 1,
+    "chapterId": "2"
+}
+
+###
+
+POST http://localhost:3000/contents/add/section
+content-type: application/json
+
+{
+    "title": "The Cause of the Separation",
+    "page": "63",
+    "number": 2,
     "chapterId": "2"
 }

@@ -13,15 +13,18 @@ export class Section {
   id: string;
 
   @Column()
+  number: number;
+
+  @Column()
+  page: number;
+
+  @Column()
   title: string;
 
   @Column()
-  page: string;
+  chapterId: string;
 
   @ManyToOne(() => Chapter, (chapter) => chapter.sections)
   @JoinColumn({ name: 'chapterId' })
   chapter: Chapter;
-
-  @Column()
-  chapterId: string;
 }

@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 
 import { ChapterRepository } from './chapter.repository';
-import { CreateChapterDto } from './dto/add-chapter.dto';
+import { AddChapterDto } from './dto/add-chapter.dto';
 import { AddSectionDto } from './dto/add-section.dto';
 import { SectionRepository } from './section.repository';
 
@@ -13,14 +13,14 @@ export class ContentsService {
   ) {}
 
   async getChapters() {
-    return this.chapterRepository.getChapters();
+    return this.chapterRepository.getAllChapters();
   }
 
-  async createChapter(dto: CreateChapterDto) {
-    return this.chapterRepository.createChapter(dto);
+  async addChapter(dto: AddChapterDto) {
+    return this.chapterRepository.addChapter(dto);
   }
 
   async addSection(dto: AddSectionDto) {
-    this.sectionRepository.addSection(dto);
+    return this.sectionRepository.addSection(dto);
   }
 }
