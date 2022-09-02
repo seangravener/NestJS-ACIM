@@ -8,8 +8,8 @@ export class AddSectionDto {
   title: string;
 
   @IsNotEmpty()
-  page: number;
+  page: string;
 
   @IsNotEmpty()
-  number: number;
+  number: string;
 }

@@ -28,25 +28,6 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/contents/add/chapter
-content-type: application/json
-
-{
-    "id": "2",
-    "title": "Right Defense and Release from Fear",
-    "page": "55",
-    "sections": [
-        {
-            "title": "The Real Meaning of Possession",
-            "page": "55",
-            "chapterId": "2"
-        }
-    ]
-}
-
-
-###
-
 POST http://localhost:3000/contents/add/section
 content-type: application/json
 
@@ -68,3 +49,51 @@ content-type: application/json
     "number": 2,
     "chapterId": "2"
 }
+
+###
+
+POST http://localhost:3000/contents/add/chapter
+content-type: application/json
+
+{
+    "id": "2",
+    "title": "Right Defense and Release from Fear",
+    "page": "55",
+    "sections": [
+        {
+            "chapterId": "2",
+            "number": "2",
+            "title": "The Real Meaning of Possession",
+            "page": "55"
+        }
+    ]
+}
+
+###
+
+POST http://localhost:3000/contents/add/chapter
+content-type: application/json
+
+{
+    "id": "5",
+    "title": "demo 5",
+    "page": "1",
+    "sections": [
+        {
+            "number": "3",
+            "title": "A",
+            "page": "10"
+        },
+        {
+            "number": "4",
+            "title": "B",
+            "page": "15"
+        },
+        {
+            "number": "5",
+            "title": "C",
+            "page": "5"
+        }
+    ]
+}
+

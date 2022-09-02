@@ -12,6 +12,6 @@ export class Chapter {
   @Column()
   page: string;
 
-  @OneToMany(() => Section, (section) => section.chapter)
+  @OneToMany(() => Section, (section) => section.chapter, { cascade: true })
   sections: Section[];
 }

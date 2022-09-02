@@ -4,6 +4,8 @@ import { ChapterRepository } from './repos/chapter.repository';
 import { AddChapterDto } from './dtos/add-chapter.dto';
 import { AddSectionDto } from './dtos/add-section.dto';
 import { SectionRepository } from './repos/section.repository';
+import { Chapter } from './entities/chapter.entity';
+import { Section } from './entities/section.entity';
 
 @Injectable()
 export class ContentsService {
@@ -13,22 +15,14 @@ export class ContentsService {
   ) {}
 
   async getChapters() {
-    return this.chapterRepository.getAllChapters();
+    return this.chapterRepository.getAll();
   }
 
-  async addChapter(dto: AddChapterDto) {
-    const { sections } = dto;
-
-    if (sections) {
-      // this.chapterRepository.addChapter({ ..dto }); // exclude sections
-      //  this.sectionRepository.addSection(); // add to chapter with id (id is optional in this mode)
-      console.log('has sections', dto);
-    }
-
+  async addChapter(dto: AddChapterDto): Promise<Chapter> {
     return this.chapterRepository.addChapter(dto);
   }
 
-  async addSection(dto: AddSectionDto) {
+  async addSection(dto: AddSectionDto): Promise<Section> {
     return this.sectionRepository.addSection(dto);
   }
 }

@@ -12,12 +12,20 @@ export class ChapterRepository {
     private dataSource: Repository<Chapter>,
   ) {}
 
-  async getAllChapters(): Promise<Chapter[]> {
-    return this.dataSource.find({ relations: ['sections'] });
+  async getAll(): Promise<Chapter[]> {
+    return this.getChaptersWithSections();
   }
 
-  async getChapter(id: string): Promise<Chapter> {
-    return this.dataSource.findOne({ where: { id } });
+  async getChapter(id: string, relations: string[] = []): Promise<Chapter> {
+    return this.dataSource.findOne({ where: { id }, relations });
+  }
+
+  async getChapterWithSection(id: string): Promise<Chapter> {
+    return this.getChapter(id, ['sections']);
+  }
+
+  async getChaptersWithSections(): Promise<Chapter[]> {
+    return this.dataSource.find({ relations: ['sections'] });
   }
 
   async addChapter(dto: AddChapterDto): Promise<Chapter> {

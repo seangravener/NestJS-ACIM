@@ -13,10 +13,10 @@ export class Section {
   id: string;
 
   @Column()
-  number: number;
+  number: string;
 
   @Column()
-  page: number;
+  page: string;
 
   @Column()
   title: string;
