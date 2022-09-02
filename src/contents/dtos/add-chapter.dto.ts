@@ -3,7 +3,7 @@ import { Section } from '../entities/section.entity';
 
 export class AddChapterDto {
   @IsNotEmpty()
-  id: string;
+  chapterId: string;
 
   @IsNotEmpty()
   title: string;

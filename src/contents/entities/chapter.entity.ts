@@ -4,7 +4,7 @@ import { Section } from './section.entity';
 @Entity()
 export class Chapter {
   @PrimaryColumn()
-  id: string;
+  chapterId: string;
 
   @Column()
   title: string;

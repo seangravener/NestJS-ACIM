@@ -16,8 +16,11 @@ export class ChapterRepository {
     return this.getChaptersWithSections();
   }
 
-  async getChapter(id: string, relations: string[] = []): Promise<Chapter> {
-    return this.dataSource.findOne({ where: { id }, relations });
+  async getChapter(
+    chapterId: string,
+    relations: string[] = [],
+  ): Promise<Chapter> {
+    return this.dataSource.findOne({ where: { chapterId }, relations });
   }
 
   async getChapterWithSection(id: string): Promise<Chapter> {

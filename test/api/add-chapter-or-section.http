@@ -1,39 +1,96 @@
-POST http://localhost:3000/contents/add/chapters-and-sections
+POST http://localhost:3000/contents/add/collection
 content-type: application/json
 
 [
   {
-    "id": "1",
-    "title": "I'm a Chapter",
-    "page": "1"
+    "chapterId": "1",
+    "number": null,
+    "title": "Principles of Miracles",
+    "page": "7"
   },
   {
-    "title": "I'm a Section (in chapter 2)",
-    "page": "1",
-    "number": "1",
-    "chapterId": "2"
+    "chapterId": "2",
+    "number": null,
+    "title": "Right Defense and Release from Fear",
+    "page": "55"
   },
   {
-    "id": "1",
-    "title": "I'm a Chapter",
-    "page": "1"
-  },    
-  {
-    "title": "I'm a Section (in chapter 2)",
-    "page": "1",
+    "chapterId": "2",
     "number": "1",
-    "chapterId": "2"
+    "title": "The Real Meaning of Possession",
+    "page": "55"
   },
   {
-    "id": "1",
-    "title": "I'm a Chapter",
-    "page": "1"
-  },    
+    "chapterId": "2",
+    "number": "2",
+    "title": "The Cause of the Separation",
+    "page": "63"
+  },
   {
-    "title": "I'm a Section (in chapter 2)",
-    "page": "1",
-    "number": "1",
-    "chapterId": "2"
+    "chapterId": "2",
+    "number": "3",
+    "title": "The Proper Use of Denial",
+    "page": "68"
+  },
+  {
+    "chapterId": "2",
+    "number": "4",
+    "title": "The Reinterpretation of Defenses",
+    "page": "71"
+  },
+  {
+    "chapterId": "2",
+    "number": "5",
+    "title": "The Atonement as Defense",
+    "page": "73"
+  },
+  {
+    "chapterId": "2",
+    "number": "6",
+    "title": "The Restoration of the Altar",
+    "page": "76"
+  },
+  {
+    "chapterId": "2",
+    "number": "7",
+    "title": "The Miracle as the Means of Healing",
+    "page": "79"
+  },
+  {
+    "chapterId": "2",
+    "number": "8",
+    "title": "The Sole Responsibility of the Miracle Worker",
+    "page": "83"
+  },
+  {
+    "chapterId": "2",
+    "number": "9",
+    "title": "The Correction Of Fear",
+    "page": "86"
+  },
+  {
+    "chapterId": "2",
+    "number": "10",
+    "title": "The Real Power of The Mind",
+    "page": "91"
+  },
+  {
+    "chapterId": "2",
+    "number": "11",
+    "title": "The Basic Conflict",
+    "page": "95"
+  },
+  {
+    "chapterId": "2",
+    "number": "12",
+    "title": "The Mastery of Love",
+    "page": "101"
+  },
+  {
+    "chapterId": "2",
+    "number": "13",
+    "title": "The Real Meaning of the Last Judgement",
+    "page": "105"
   }
 ]
 

@@ -1,9 +1,11 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
+
 import { ContentsService } from './contents.service';
 import { AddChapterDto } from './dtos/add-chapter.dto';
 import { AddSectionDto } from './dtos/add-section.dto';
 import { Chapter } from './entities/chapter.entity';
 import { Section } from './entities/section.entity';
+import { Collection } from './interfaces/collection.interface';
 
 @Controller('contents')
 export class ContentsController {
@@ -29,24 +31,32 @@ export class ContentsController {
     return this.contentsService.addSection(dto);
   }
 
-  // @todo rename
-  // @todo use dto for union type
-  @Post('/add/chapters-and-sections')
-  async addChaptersAndSections(
-    @Body() dtos: (Chapter | Section)[],
-  ): Promise<(Chapter | Section)[]> {
-    const results: (Chapter | Section)[] = [];
+  // @todo move collection logic to service
+  @Post('/add/collection')
+  async addCollection(
+    @Body() dtos: Collection<Chapter | Section>,
+  ): Promise<Collection<Chapter | Section>> {
+    const results: Collection<Chapter | Section> = [];
 
     for (const dto of dtos) {
-      if ('number' in dto) {
-        console.log('add section: ', dto);
+      if ('number' in dto && dto.number) {
         results.push(await this.contentsService.addSection(dto));
-      }
+      } else {
+        let sections = [];
+        const { chapterId, title, page } = dto;
 
-      //
-      else {
-        console.log('add chapter: ', dto);
-        results.push(await this.contentsService.addChapter(dto));
+        if ('sections' in dto) {
+          sections = dto.sections;
+        }
+
+        results.push(
+          await this.contentsService.addChapter({
+            chapterId,
+            title,
+            page,
+            sections,
+          }),
+        );
       }
     }
 
