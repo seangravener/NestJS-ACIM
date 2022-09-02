@@ -2,8 +2,8 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
-import { Section } from './entities/section.entity';
-import { AddSectionDto } from './dto/add-section.dto';
+import { Section } from '../entities/section.entity';
+import { AddSectionDto } from '../dtos/add-section.dto';
 import { ChapterRepository } from './chapter.repository';
 
 @Injectable()

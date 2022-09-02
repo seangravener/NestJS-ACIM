@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 
-import { ChapterRepository } from './chapter.repository';
-import { AddChapterDto } from './dto/add-chapter.dto';
-import { AddSectionDto } from './dto/add-section.dto';
-import { SectionRepository } from './section.repository';
+import { ChapterRepository } from './repos/chapter.repository';
+import { AddChapterDto } from './dtos/add-chapter.dto';
+import { AddSectionDto } from './dtos/add-section.dto';
+import { SectionRepository } from './repos/section.repository';
 
 @Injectable()
 export class ContentsService {
@@ -17,6 +17,14 @@ export class ContentsService {
   }
 
   async addChapter(dto: AddChapterDto) {
+    const { sections } = dto;
+
+    if (sections) {
+      // this.chapterRepository.addChapter({ ..dto }); // exclude sections
+      //  this.sectionRepository.addSection(); // add to chapter with id (id is optional in this mode)
+      console.log('has sections', dto);
+    }
+
     return this.chapterRepository.addChapter(dto);
   }
 
