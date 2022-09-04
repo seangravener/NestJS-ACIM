@@ -2,33 +2,33 @@ GET http://localhost:3000/
 
 ###
 
-GET http://localhost:3000/contents/chapters
+GET http://localhost:3000/chapter
 
 ###
 
-POST http://localhost:3000/contents/add/chapter
+POST http://localhost:3000/chapter/add
 content-type: application/json
 
 {
-    "id": "1",
+    "chapterId": "1",
     "title": "Principles of Miracles",
     "page": "7"
 }
 
 ### 
 
-POST http://localhost:3000/contents/add/chapter
+POST http://localhost:3000/chapter/add
 content-type: application/json
 
 {
-    "id": "2",
+    "chapterId": "2",
     "title": "Right Defense and Release from Fear",
     "page": "55"
 }
 
 ###
 
-POST http://localhost:3000/contents/add/section
+POST http://localhost:3000/section/add
 content-type: application/json
 
 {
@@ -40,7 +40,7 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/contents/add/section
+POST http://localhost:3000/section/add
 content-type: application/json
 
 {
@@ -52,17 +52,16 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/contents/add/chapter
+POST http://localhost:3000/chapter/add
 content-type: application/json
 
 {
-    "id": "2",
+    "chapterId": "14",
     "title": "Right Defense and Release from Fear",
     "page": "55",
     "sections": [
         {
-            "chapterId": "2",
-            "number": "2",
+            "number": "3",
             "title": "The Real Meaning of Possession",
             "page": "55"
         }
@@ -71,11 +70,11 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/contents/add/chapter
+POST http://localhost:3000/chapter/add
 content-type: application/json
 
 {
-    "id": "5",
+    "chapterId": "15",
     "title": "demo 5",
     "page": "1",
     "sections": [

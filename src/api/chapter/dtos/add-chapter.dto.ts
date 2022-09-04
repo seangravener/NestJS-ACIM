@@ -1,5 +1,5 @@
 import { IsNotEmpty } from 'class-validator';
-import { Section } from '../entities/section.entity';
+import { Section } from '../../section/section.entity';
 
 export class AddChapterDto {
   @IsNotEmpty()

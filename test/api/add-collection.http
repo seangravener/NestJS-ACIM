@@ -1,0 +1,1836 @@
+POST http://localhost:3000/contents/add/collection
+content-type: application/json
+
+
+[
+  {
+    "chapterId": "1",
+    "number": null,
+    "title": "Principles of Miracles",
+    "page": "7"
+  },
+  {
+    "chapterId": "2",
+    "number": null,
+    "title": "Right Defense and Release from Fear",
+    "page": "55"
+  },
+  {
+    "chapterId": "2",
+    "number": "1",
+    "title": "The Real Meaning of Possession",
+    "page": "55"
+  },
+  {
+    "chapterId": "2",
+    "number": "2",
+    "title": "The Cause of the Separation",
+    "page": "63"
+  },
+  {
+    "chapterId": "2",
+    "number": "3",
+    "title": "The Proper Use of Denial",
+    "page": "68"
+  },
+  {
+    "chapterId": "2",
+    "number": "4",
+    "title": "The Reinterpretation of Defenses",
+    "page": "71"
+  },
+  {
+    "chapterId": "2",
+    "number": "5",
+    "title": "The Atonement as Defense",
+    "page": "73"
+  },
+  {
+    "chapterId": "2",
+    "number": "6",
+    "title": "The Restoration of the Altar",
+    "page": "76"
+  },
+  {
+    "chapterId": "2",
+    "number": "7",
+    "title": "The Miracle as the Means of Healing",
+    "page": "79"
+  },
+  {
+    "chapterId": "2",
+    "number": "8",
+    "title": "The Sole Responsibility of the Miracle Worker",
+    "page": "83"
+  },
+  {
+    "chapterId": "2",
+    "number": "9",
+    "title": "The Correction Of Fear",
+    "page": "86"
+  },
+  {
+    "chapterId": "2",
+    "number": "10",
+    "title": "The Real Power of The Mind",
+    "page": "91"
+  },
+  {
+    "chapterId": "2",
+    "number": "11",
+    "title": "The Basic Conflict",
+    "page": "95"
+  },
+  {
+    "chapterId": "2",
+    "number": "12",
+    "title": "The Mastery of Love",
+    "page": "101"
+  },
+  {
+    "chapterId": "2",
+    "number": "13",
+    "title": "The Real Meaning of the Last Judgement",
+    "page": "105"
+  },
+  {
+    "chapterId": "3",
+    "number": null,
+    "title": "Sane Perception",
+    "page": "107"
+  },
+  {
+    "chapterId": "3",
+    "number": "1",
+    "title": "The Need to Study",
+    "page": "107"
+  },
+  {
+    "chapterId": "3",
+    "number": "2",
+    "title": "Special Principles for Miracle Workers",
+    "page": "109"
+  },
+  {
+    "chapterId": "3",
+    "number": "3",
+    "title": "Atonement without Sacrifice",
+    "page": "111"
+  },
+  {
+    "chapterId": "3",
+    "number": "4",
+    "title": "Innocent Perception",
+    "page": "117"
+  },
+  {
+    "chapterId": "3",
+    "number": "5",
+    "title": "Perception versus Knowledge",
+    "page": "119"
+  },
+  {
+    "chapterId": "3",
+    "number": "6",
+    "title": "The Divided Mind",
+    "page": "123"
+  },
+  {
+    "chapterId": "3",
+    "number": "7",
+    "title": "Beyond Perception",
+    "page": "129"
+  },
+  {
+    "chapterId": "3",
+    "number": "8",
+    "title": "The Essential Goal of Therapy",
+    "page": "133"
+  },
+  {
+    "chapterId": "3",
+    "number": "9",
+    "title": "The Fear of Teaching",
+    "page": "137"
+  },
+  {
+    "chapterId": "3",
+    "number": "10",
+    "title": "Judgement and the Authority Problem",
+    "page": "141"
+  },
+  {
+    "chapterId": "3",
+    "number": "11",
+    "title": "The Unshakeable Foundation",
+    "page": "145"
+  },
+  {
+    "chapterId": "4",
+    "number": null,
+    "title": "The Ego's Struggle to Preserve Itself",
+    "page": "149"
+  },
+  {
+    "chapterId": "4",
+    "number": "1",
+    "title": "The Last Foolish Journey",
+    "page": "149"
+  },
+  {
+    "chapterId": "4",
+    "number": "2",
+    "title": "The Devoted Teacher",
+    "page": "152"
+  },
+  {
+    "chapterId": "4",
+    "number": "3",
+    "title": "The Making of the Ego",
+    "page": "158"
+  },
+  {
+    "chapterId": "4",
+    "number": "4",
+    "title": "The Ego's Need to Confirm Itself",
+    "page": "161"
+  },
+  {
+    "chapterId": "4",
+    "number": "5",
+    "title": "The Calm Being Of Gods Kingdom",
+    "page": "166"
+  },
+  {
+    "chapterId": "4",
+    "number": "6",
+    "title": "This Need Not Be",
+    "page": "171"
+  },
+  {
+    "chapterId": "4",
+    "number": "7",
+    "title": "The Real Question",
+    "page": "175"
+  },
+  {
+    "chapterId": "4",
+    "number": "8",
+    "title": "The Rewards of God",
+    "page": "179"
+  },
+  {
+    "chapterId": "4",
+    "number": "9",
+    "title": "Asking and Following",
+    "page": "186"
+  },
+  {
+    "chapterId": "4",
+    "number": "10",
+    "title": "Complete and Direct Communication",
+    "page": "188"
+  },
+  {
+    "chapterId": "4",
+    "number": "11",
+    "title": "Being Truly Helpful",
+    "page": "190"
+  },
+  {
+    "chapterId": "5",
+    "number": null,
+    "title": "The Holy Spirit",
+    "page": "195"
+  },
+  {
+    "chapterId": "5",
+    "number": "1",
+    "title": "Being Wholly Joyous",
+    "page": "195"
+  },
+  {
+    "chapterId": "5",
+    "number": "2",
+    "title": "The Spirit of Joy",
+    "page": "197"
+  },
+  {
+    "chapterId": "5",
+    "number": "3",
+    "title": "The Voice for God",
+    "page": "201"
+  },
+  {
+    "chapterId": "5",
+    "number": "4",
+    "title": "Sharing the Holy Spirit",
+    "page": "204"
+  },
+  {
+    "chapterId": "5",
+    "number": "5",
+    "title": "The Foundation for Real Sharing",
+    "page": "209"
+  },
+  {
+    "chapterId": "5",
+    "number": "6",
+    "title": "The Egos Use of Guilt",
+    "page": "214"
+  },
+  {
+    "chapterId": "5",
+    "number": "7",
+    "title": "The Question of Karma",
+    "page": "218"
+  },
+  {
+    "chapterId": "5",
+    "number": "8",
+    "title": "Gods Higher Court",
+    "page": "221"
+  },
+  {
+    "chapterId": "5",
+    "number": "9",
+    "title": "The Eternal Fixation",
+    "page": "224"
+  },
+  {
+    "chapterId": "5",
+    "number": "10",
+    "title": "The Decision for God",
+    "page": "227"
+  },
+  {
+    "chapterId": "6",
+    "number": null,
+    "title": "The Lessons of Love",
+    "page": "231"
+  },
+  {
+    "chapterId": "6",
+    "number": "1",
+    "title": "The Message of the Crucifixion",
+    "page": "231"
+  },
+  {
+    "chapterId": "6",
+    "number": "2",
+    "title": "Projection and Separation",
+    "page": "239"
+  },
+  {
+    "chapterId": "6",
+    "number": "3",
+    "title": "Everything Meets in God",
+    "page": "241"
+  },
+  {
+    "chapterId": "6",
+    "number": "4",
+    "title": "Teach Only Love",
+    "page": "243"
+  },
+  {
+    "chapterId": "6",
+    "number": "5",
+    "title": "The Answer to All Questions",
+    "page": "245"
+  },
+  {
+    "chapterId": "6",
+    "number": "6",
+    "title": "The Call to Awake",
+    "page": "247"
+  },
+  {
+    "chapterId": "6",
+    "number": "7",
+    "title": "The Lessons of the Holy Spirit",
+    "page": "250"
+  },
+  {
+    "chapterId": "6",
+    "number": "7A",
+    "title": "To Have, Give All to All",
+    "page": "250"
+  },
+  {
+    "chapterId": "6",
+    "number": "7B",
+    "title": "To Have Peace, Teach Peace and Therefore Learn It",
+    "page": "252"
+  },
+  {
+    "chapterId": "6",
+    "number": "7C",
+    "title": "Be Vigilant Only for God and His Kingdom",
+    "page": "255"
+  },
+  {
+    "chapterId": "6",
+    "number": "8",
+    "title": "The Last Step",
+    "page": "260"
+  },
+  {
+    "chapterId": "7",
+    "number": null,
+    "title": "The Extension of the Kingdom",
+    "page": "263"
+  },
+  {
+    "chapterId": "7",
+    "number": "1",
+    "title": "The Law of the Kingdom",
+    "page": "263"
+  },
+  {
+    "chapterId": "7",
+    "number": "2",
+    "title": "The Unification of Abilities",
+    "page": "266"
+  },
+  {
+    "chapterId": "7",
+    "number": "3",
+    "title": "Healing as a Way of Remembering",
+    "page": "270"
+  },
+  {
+    "chapterId": "7",
+    "number": "4",
+    "title": "Healing and the Changelessness of Mind",
+    "page": "273"
+  },
+  {
+    "chapterId": "7",
+    "number": "5",
+    "title": "The Denial of Power",
+    "page": "278"
+  },
+  {
+    "chapterId": "7",
+    "number": "6",
+    "title": "Extending the Gift of Life",
+    "page": "283"
+  },
+  {
+    "chapterId": "7",
+    "number": "7",
+    "title": "The Ego's Use of Projection",
+    "page": "286"
+  },
+  {
+    "chapterId": "7",
+    "number": "8",
+    "title": "Your Boundless Self-fullness",
+    "page": "289"
+  },
+  {
+    "chapterId": "7",
+    "number": "9",
+    "title": "The Confusion of Pain and Joy",
+    "page": "290"
+  },
+  {
+    "chapterId": "7",
+    "number": "10",
+    "title": "The State of Grace",
+    "page": "293"
+  },
+  {
+    "chapterId": "8",
+    "number": null,
+    "title": "The Undivided Will to Heal",
+    "page": "297"
+  },
+  {
+    "chapterId": "8",
+    "number": "1",
+    "title": "The Unconflicted Curriculum",
+    "page": "297"
+  },
+  {
+    "chapterId": "8",
+    "number": "2",
+    "title": "The Holy Encounter",
+    "page": "300"
+  },
+  {
+    "chapterId": "8",
+    "number": "3",
+    "title": "Freedom of Will",
+    "page": "303"
+  },
+  {
+    "chapterId": "8",
+    "number": "4",
+    "title": "The Undivided Will of the Sonship",
+    "page": "306"
+  },
+  {
+    "chapterId": "8",
+    "number": "5",
+    "title": "The Treasure of God",
+    "page": "309"
+  },
+  {
+    "chapterId": "8",
+    "number": "6",
+    "title": "Using the Body Solely for Communication",
+    "page": "312"
+  },
+  {
+    "chapterId": "8",
+    "number": "7",
+    "title": "Sickness as a False Witness",
+    "page": "317"
+  },
+  {
+    "chapterId": "8",
+    "number": "8",
+    "title": "Healing as the Will to Awaken",
+    "page": "320"
+  },
+  {
+    "chapterId": "9",
+    "number": null,
+    "title": "The Plan of Forgiveness",
+    "page": "325"
+  },
+  {
+    "chapterId": "9",
+    "number": "1",
+    "title": "Asking for What You Want",
+    "page": "325"
+  },
+  {
+    "chapterId": "9",
+    "number": "2",
+    "title": "Hearing God's Answer in Everyone",
+    "page": "329"
+  },
+  {
+    "chapterId": "9",
+    "number": "3",
+    "title": "The Correction of Error",
+    "page": "333"
+  },
+  {
+    "chapterId": "9",
+    "number": "4",
+    "title": "Looking beyond Error",
+    "page": "335"
+  },
+  {
+    "chapterId": "9",
+    "number": "5",
+    "title": "The Unhealed Healer",
+    "page": "338"
+  },
+  {
+    "chapterId": "9",
+    "number": "6",
+    "title": "The Witnesses to Your Reality",
+    "page": "342"
+  },
+  {
+    "chapterId": "9",
+    "number": "7",
+    "title": "The Two Evaluations",
+    "page": "344"
+  },
+  {
+    "chapterId": "9",
+    "number": "8",
+    "title": "Grandeur versus Grandiosity",
+    "page": "346"
+  },
+  {
+    "chapterId": "10",
+    "number": null,
+    "title": "The Religion of the Ego",
+    "page": "351"
+  },
+  {
+    "chapterId": "10",
+    "number": "1",
+    "title": "Waking to the Eternal",
+    "page": "351"
+  },
+  {
+    "chapterId": "10",
+    "number": "2",
+    "title": "The Will to Remember God",
+    "page": "353"
+  },
+  {
+    "chapterId": "10",
+    "number": "3",
+    "title": "The God of Sickness",
+    "page": "355"
+  },
+  {
+    "chapterId": "10",
+    "number": "4",
+    "title": "No Other Laws but Gods",
+    "page": "359"
+  },
+  {
+    "chapterId": "10",
+    "number": "5",
+    "title": "The Denial of God",
+    "page": "361"
+  },
+  {
+    "chapterId": "11",
+    "number": null,
+    "title": "God or the Ego",
+    "page": "367"
+  },
+  {
+    "chapterId": "11",
+    "number": "1",
+    "title": "Your Place in Gods Mind",
+    "page": "367"
+  },
+  {
+    "chapterId": "11",
+    "number": "2",
+    "title": "Healing as the Recognition of Your Will",
+    "page": "370"
+  },
+  {
+    "chapterId": "11",
+    "number": "3",
+    "title": "The Dark Companions",
+    "page": "372"
+  },
+  {
+    "chapterId": "11",
+    "number": "4",
+    "title": "Gods Blameless Son",
+    "page": "375"
+  },
+  {
+    "chapterId": "11",
+    "number": "5",
+    "title": "The “Dynamics” of the Ego",
+    "page": "378"
+  },
+  {
+    "chapterId": "11",
+    "number": "6",
+    "title": "Selecting Perception's Witnesses",
+    "page": "381"
+  },
+  {
+    "chapterId": "11",
+    "number": "7",
+    "title": "Believing in the Resurrection",
+    "page": "383"
+  },
+  {
+    "chapterId": "11",
+    "number": "8",
+    "title": "The Real World",
+    "page": "386"
+  },
+  {
+    "chapterId": "11",
+    "number": "9",
+    "title": "Asking for Gods Answer",
+    "page": "388"
+  },
+  {
+    "chapterId": "12",
+    "number": null,
+    "title": "The Sanity of Love",
+    "page": "393"
+  },
+  {
+    "chapterId": "12",
+    "number": "1",
+    "title": "Interpreting the Motives of Others",
+    "page": "393"
+  },
+  {
+    "chapterId": "12",
+    "number": "2",
+    "title": "Fear as a Call for Love",
+    "page": "396"
+  },
+  {
+    "chapterId": "12",
+    "number": "3",
+    "title": "Looking at the Cause of Fear",
+    "page": "398"
+  },
+  {
+    "chapterId": "12",
+    "number": "4",
+    "title": "Answering “Outrageous” Requests",
+    "page": "400"
+  },
+  {
+    "chapterId": "12",
+    "number": "5",
+    "title": "The “Outside” World",
+    "page": "402"
+  },
+  {
+    "chapterId": "12",
+    "number": "6",
+    "title": "Seeking and Finding",
+    "page": "404"
+  },
+  {
+    "chapterId": "12",
+    "number": "7",
+    "title": "A Special Curriculum",
+    "page": "406"
+  },
+  {
+    "chapterId": "12",
+    "number": "8",
+    "title": "The Investment in the Real World",
+    "page": "409"
+  },
+  {
+    "chapterId": "12",
+    "number": "9",
+    "title": "The Manifestations of the Holy Spirit",
+    "page": "411"
+  },
+  {
+    "chapterId": "12",
+    "number": "10",
+    "title": "The Visible and the Invisible",
+    "page": "416"
+  },
+  {
+    "chapterId": "13",
+    "number": null,
+    "title": "Release from Guilt",
+    "page": "419"
+  },
+  {
+    "chapterId": "13",
+    "number": "1",
+    "title": "The World of Guilt",
+    "page": "419"
+  },
+  {
+    "chapterId": "13",
+    "number": "2",
+    "title": "Looking upon the Guilty Secret",
+    "page": "423"
+  },
+  {
+    "chapterId": "13",
+    "number": "3",
+    "title": "The Fear of Redemption",
+    "page": "426"
+  },
+  {
+    "chapterId": "13",
+    "number": "4",
+    "title": "The Function of Time",
+    "page": "429"
+  },
+  {
+    "chapterId": "13",
+    "number": "5",
+    "title": "The Two Emotions",
+    "page": "432"
+  },
+  {
+    "chapterId": "13",
+    "number": "6",
+    "title": "The Continuous Present",
+    "page": "435"
+  },
+  {
+    "chapterId": "13",
+    "number": "7",
+    "title": "The World That Shines with Love",
+    "page": "439"
+  },
+  {
+    "chapterId": "13",
+    "number": "8",
+    "title": "Leaving Your Needs to Him",
+    "page": "442"
+  },
+  {
+    "chapterId": "13",
+    "number": "9",
+    "title": "Golden Aspects of Reality",
+    "page": "444"
+  },
+  {
+    "chapterId": "13",
+    "number": "10",
+    "title": "Laying Guilt upon Your Brother",
+    "page": "447"
+  },
+  {
+    "chapterId": "13",
+    "number": "11",
+    "title": "Guilt and Real Relationships",
+    "page": "449"
+  },
+  {
+    "chapterId": "13",
+    "number": "12",
+    "title": "The Certainty of Heaven",
+    "page": "454"
+  },
+  {
+    "chapterId": "14",
+    "number": null,
+    "title": "The Light of Guiltlessness",
+    "page": "457"
+  },
+  {
+    "chapterId": "14",
+    "number": "1",
+    "title": "The Logic of Blessedness",
+    "page": "457"
+  },
+  {
+    "chapterId": "14",
+    "number": "2",
+    "title": "The Happy Learner",
+    "page": "459"
+  },
+  {
+    "chapterId": "14",
+    "number": "3",
+    "title": "Guiltlessness and Invulnerability",
+    "page": "461"
+  },
+  {
+    "chapterId": "14",
+    "number": "4",
+    "title": "Guiltless Decision Making",
+    "page": "464"
+  },
+  {
+    "chapterId": "14",
+    "number": "5",
+    "title": "Loving in a Loveless Place",
+    "page": "467"
+  },
+  {
+    "chapterId": "14",
+    "number": "6",
+    "title": "The Condition for Knowing God",
+    "page": "469"
+  },
+  {
+    "chapterId": "14",
+    "number": "7",
+    "title": "The Circle of Atonement",
+    "page": "470"
+  },
+  {
+    "chapterId": "14",
+    "number": "8",
+    "title": "The Sentinels of Darkness",
+    "page": "474"
+  },
+  {
+    "chapterId": "14",
+    "number": "9",
+    "title": "Bringing Your Darkness to Him",
+    "page": "476"
+  },
+  {
+    "chapterId": "14",
+    "number": "10",
+    "title": "The Reflection of Holiness",
+    "page": "480"
+  },
+  {
+    "chapterId": "14",
+    "number": "11",
+    "title": "The Equal Blessing of the Miracle",
+    "page": "482"
+  },
+  {
+    "chapterId": "14",
+    "number": "12",
+    "title": "The Test of Perfect Peace",
+    "page": "486"
+  },
+  {
+    "chapterId": "15",
+    "number": null,
+    "title": "The Holy Instant and Special Relationships",
+    "page": "491"
+  },
+  {
+    "chapterId": "15",
+    "number": "1",
+    "title": "The Two Uses of Time",
+    "page": "491"
+  },
+  {
+    "chapterId": "15",
+    "number": "2",
+    "title": "Giving the Instant of Release",
+    "page": "494"
+  },
+  {
+    "chapterId": "15",
+    "number": "3",
+    "title": "Littleness versus Magnitude",
+    "page": "497"
+  },
+  {
+    "chapterId": "15",
+    "number": "4",
+    "title": "Practicing the Holy Instant",
+    "page": "501"
+  },
+  {
+    "chapterId": "15",
+    "number": "5",
+    "title": "The Meaning of Love",
+    "page": "503"
+  },
+  {
+    "chapterId": "15",
+    "number": "6",
+    "title": "In the Holy Instant",
+    "page": "506"
+  },
+  {
+    "chapterId": "15",
+    "number": "7",
+    "title": "The Basis of the Special Relationship",
+    "page": "509"
+  },
+  {
+    "chapterId": "15",
+    "number": "8",
+    "title": "The Escape from Loneliness",
+    "page": "512"
+  },
+  {
+    "chapterId": "15",
+    "number": "9",
+    "title": "Relationships without Limits",
+    "page": "515"
+  },
+  {
+    "chapterId": "15",
+    "number": "10",
+    "title": "The Demand for Sacrifice",
+    "page": "517"
+  },
+  {
+    "chapterId": "15",
+    "number": "11",
+    "title": "Release from Sacrifice",
+    "page": "520"
+  },
+  {
+    "chapterId": "16",
+    "number": null,
+    "title": "Looking at the Special Relationship",
+    "page": "523"
+  },
+  {
+    "chapterId": "16",
+    "number": "1",
+    "title": "True Empathy",
+    "page": "523"
+  },
+  {
+    "chapterId": "16",
+    "number": "2",
+    "title": "The Power of Holiness",
+    "page": "525"
+  },
+  {
+    "chapterId": "16",
+    "number": "3",
+    "title": "The Joy Of Teaching",
+    "page": "529"
+  },
+  {
+    "chapterId": "16",
+    "number": "4",
+    "title": "Abandoning the Illusion of Love",
+    "page": "531"
+  },
+  {
+    "chapterId": "16",
+    "number": "5",
+    "title": "The Ritual of the Death of God",
+    "page": "535"
+  },
+  {
+    "chapterId": "16",
+    "number": "6",
+    "title": "Across the Bridge",
+    "page": "540"
+  },
+  {
+    "chapterId": "16",
+    "number": "7",
+    "title": "The Escape from Vengeance",
+    "page": "543"
+  },
+  {
+    "chapterId": "17",
+    "number": null,
+    "title": "The Holy Relationship",
+    "page": "549"
+  },
+  {
+    "chapterId": "17",
+    "number": "1",
+    "title": "Bringing Fantasy to Truth",
+    "page": "549"
+  },
+  {
+    "chapterId": "17",
+    "number": "2",
+    "title": "The Beauty of the Real World",
+    "page": "551"
+  },
+  {
+    "chapterId": "17",
+    "number": "3",
+    "title": "Shadow Figures",
+    "page": "553"
+  },
+  {
+    "chapterId": "17",
+    "number": "4",
+    "title": "The Two Pictures",
+    "page": "557"
+  },
+  {
+    "chapterId": "17",
+    "number": "5",
+    "title": "The Beginning of the Holy Relationship",
+    "page": "562"
+  },
+  {
+    "chapterId": "17",
+    "number": "6",
+    "title": "Setting the Goal",
+    "page": "566"
+  },
+  {
+    "chapterId": "17",
+    "number": "7",
+    "title": "All-Inclusive Faith",
+    "page": "568"
+  },
+  {
+    "chapterId": "17",
+    "number": "8",
+    "title": "The Strain of Refusing Faith",
+    "page": "572"
+  },
+  {
+    "chapterId": "17",
+    "number": "9",
+    "title": "The Branch in the Road",
+    "page": "573"
+  },
+  {
+    "chapterId": "18",
+    "number": null,
+    "title": "The Blessing of the Holy Relationship",
+    "page": "575"
+  },
+  {
+    "chapterId": "18",
+    "number": "1",
+    "title": "The Original Error",
+    "page": "575"
+  },
+  {
+    "chapterId": "18",
+    "number": "2",
+    "title": "Dreams as Protest against Reality",
+    "page": "579"
+  },
+  {
+    "chapterId": "18",
+    "number": "3",
+    "title": "The Advance to Truth",
+    "page": "582"
+  },
+  {
+    "chapterId": "18",
+    "number": "4",
+    "title": "The Little Willingness",
+    "page": "584"
+  },
+  {
+    "chapterId": "18",
+    "number": "5",
+    "title": "The Ladder to Heaven",
+    "page": "587"
+  },
+  {
+    "chapterId": "18",
+    "number": "6",
+    "title": "Beyond the Body",
+    "page": "589"
+  },
+  {
+    "chapterId": "18",
+    "number": "7",
+    "title": "The Little Garden",
+    "page": "593"
+  },
+  {
+    "chapterId": "18",
+    "number": "8",
+    "title": "The Clouds of Guilt",
+    "page": "596"
+  },
+  {
+    "chapterId": "19",
+    "number": null,
+    "title": "From Sin to Peace",
+    "page": "601"
+  },
+  {
+    "chapterId": "19",
+    "number": "1",
+    "title": "Healing through Faith",
+    "page": "601"
+  },
+  {
+    "chapterId": "19",
+    "number": "2",
+    "title": "Sin versus Error",
+    "page": "606"
+  },
+  {
+    "chapterId": "19",
+    "number": "3",
+    "title": "The Unreality of Sin",
+    "page": "608"
+  },
+  {
+    "chapterId": "19",
+    "number": "4",
+    "title": "The Obstacles to Peace",
+    "page": "611"
+  },
+  {
+    "chapterId": "19",
+    "number": "4A",
+    "title": "The First Obstacle: The Desire to Get Rid of It",
+    "page": "613"
+  },
+  {
+    "chapterId": "19",
+    "number": "4B",
+    "title": "The Second Obstacle: The Belief the Body Is Valuable for What It Offers",
+    "page": "617"
+  },
+  {
+    "chapterId": "19",
+    "number": "4C",
+    "title": "The Third Obstacle: The Attraction of Death",
+    "page": "623"
+  },
+  {
+    "chapterId": "19",
+    "number": "4D",
+    "title": "The Fourth Obstacle: The Fear of God",
+    "page": "627"
+  },
+  {
+    "chapterId": "20",
+    "number": null,
+    "title": "The Vision of Your Brother",
+    "page": "635"
+  },
+  {
+    "chapterId": "20",
+    "number": "1",
+    "title": "Holy Week",
+    "page": "635"
+  },
+  {
+    "chapterId": "20",
+    "number": "2",
+    "title": "The Gift of Lilies",
+    "page": "636"
+  },
+  {
+    "chapterId": "20",
+    "number": "3",
+    "title": "The Insanity of Adjustment",
+    "page": "639"
+  },
+  {
+    "chapterId": "20",
+    "number": "4",
+    "title": "Entering the Ark",
+    "page": "643"
+  },
+  {
+    "chapterId": "20",
+    "number": "5",
+    "title": "Heralds of Eternity",
+    "page": "646"
+  },
+  {
+    "chapterId": "20",
+    "number": "6",
+    "title": "The Temple of the Holy Spirit",
+    "page": "648"
+  },
+  {
+    "chapterId": "20",
+    "number": "7",
+    "title": "Aligning Means and End",
+    "page": "652"
+  },
+  {
+    "chapterId": "20",
+    "number": "8",
+    "title": "The Vision of Sinlessness",
+    "page": "655"
+  },
+  {
+    "chapterId": "21",
+    "number": null,
+    "title": "Desiring a Sinless World",
+    "page": "659"
+  },
+  {
+    "chapterId": "21",
+    "number": "1",
+    "title": "The Forgotten Song",
+    "page": "659"
+  },
+  {
+    "chapterId": "21",
+    "number": "2",
+    "title": "The Power of Decision",
+    "page": "662"
+  },
+  {
+    "chapterId": "21",
+    "number": "3",
+    "title": "Faith, Belief, and Vision",
+    "page": "666"
+  },
+  {
+    "chapterId": "21",
+    "number": "4",
+    "title": "The Fear to Look Within",
+    "page": "669"
+  },
+  {
+    "chapterId": "21",
+    "number": "5",
+    "title": "Reason as the Undoing of Insanity",
+    "page": "672"
+  },
+  {
+    "chapterId": "21",
+    "number": "6",
+    "title": "What Reason Tells You",
+    "page": "675"
+  },
+  {
+    "chapterId": "21",
+    "number": "7",
+    "title": "The Last Unanswered Question",
+    "page": "679"
+  },
+  {
+    "chapterId": "22",
+    "number": null,
+    "title": "The Function of the Holy Relationship",
+    "page": "685"
+  },
+  {
+    "chapterId": "22",
+    "number": "1",
+    "title": "The Undoing of Differences",
+    "page": "685"
+  },
+  {
+    "chapterId": "22",
+    "number": "2",
+    "title": "Christ Reborn into His Ancient Home",
+    "page": "686"
+  },
+  {
+    "chapterId": "22",
+    "number": "3",
+    "title": "The Escape from Misery",
+    "page": "690"
+  },
+  {
+    "chapterId": "22",
+    "number": "4",
+    "title": "Seeing Past the Form of Error",
+    "page": "693"
+  },
+  {
+    "chapterId": "22",
+    "number": "5",
+    "title": "Beyond the Veil",
+    "page": "696"
+  },
+  {
+    "chapterId": "22",
+    "number": "6",
+    "title": "The Need to Defend",
+    "page": "697"
+  },
+  {
+    "chapterId": "22",
+    "number": "7",
+    "title": "I Need Do Nothing",
+    "page": "699"
+  },
+  {
+    "chapterId": "22",
+    "number": "8",
+    "title": "Becoming the Means to His End",
+    "page": "702"
+  },
+  {
+    "chapterId": "22",
+    "number": "9",
+    "title": "Only the Different Can Attack",
+    "page": "704"
+  },
+  {
+    "chapterId": "23",
+    "number": null,
+    "title": "The Escape from Conflict",
+    "page": "707"
+  },
+  {
+    "chapterId": "23",
+    "number": "1",
+    "title": "Walk You in Glory",
+    "page": "707"
+  },
+  {
+    "chapterId": "23",
+    "number": "2",
+    "title": "The War against Yourself",
+    "page": "709"
+  },
+  {
+    "chapterId": "23",
+    "number": "3",
+    "title": "The Laws of Chaos",
+    "page": "712"
+  },
+  {
+    "chapterId": "23",
+    "number": "4",
+    "title": "Above the Battleground",
+    "page": "719"
+  },
+  {
+    "chapterId": "24",
+    "number": null,
+    "title": "The Dream of Specialness",
+    "page": "725"
+  },
+  {
+    "chapterId": "24",
+    "number": "1",
+    "title": "The Hidden Belief in Specialness",
+    "page": "725"
+  },
+  {
+    "chapterId": "24",
+    "number": "2",
+    "title": "The Treachery of Specialness",
+    "page": "728"
+  },
+  {
+    "chapterId": "24",
+    "number": "3",
+    "title": "Forgiveness as the End of Specialness",
+    "page": "732"
+  },
+  {
+    "chapterId": "24",
+    "number": "4",
+    "title": "The Shift in Purpose",
+    "page": "735"
+  },
+  {
+    "chapterId": "24",
+    "number": "5",
+    "title": "The Christ in You",
+    "page": "737"
+  },
+  {
+    "chapterId": "24",
+    "number": "6",
+    "title": "Your Brothers Holiness",
+    "page": "739"
+  },
+  {
+    "chapterId": "24",
+    "number": "7",
+    "title": "Your Own Beloved Son",
+    "page": "743"
+  },
+  {
+    "chapterId": "25",
+    "number": null,
+    "title": "The Holy Spirit's Justice",
+    "page": "747"
+  },
+  {
+    "chapterId": "25",
+    "number": "1",
+    "title": "Framed in Holiness",
+    "page": "747"
+  },
+  {
+    "chapterId": "25",
+    "number": "2",
+    "title": "Gods Masterpiece",
+    "page": "750"
+  },
+  {
+    "chapterId": "25",
+    "number": "3",
+    "title": "The Two Makers of the World",
+    "page": "753"
+  },
+  {
+    "chapterId": "25",
+    "number": "4",
+    "title": "The Light You Bring",
+    "page": "756"
+  },
+  {
+    "chapterId": "25",
+    "number": "5",
+    "title": "Christ Stands before You",
+    "page": "758"
+  },
+  {
+    "chapterId": "25",
+    "number": "6",
+    "title": "The Special Function",
+    "page": "760"
+  },
+  {
+    "chapterId": "25",
+    "number": "7",
+    "title": "God Is Not Insane",
+    "page": "762"
+  },
+  {
+    "chapterId": "25",
+    "number": "8",
+    "title": "Justice Returned to Love",
+    "page": "766"
+  },
+  {
+    "chapterId": "25",
+    "number": "9",
+    "title": "A Witness to Sinlessness",
+    "page": "770"
+  },
+  {
+    "chapterId": "25",
+    "number": "10",
+    "title": "The Justice of Miracles",
+    "page": "771"
+  },
+  {
+    "chapterId": "26",
+    "number": null,
+    "title": "Holy Ground",
+    "page": "775"
+  },
+  {
+    "chapterId": "26",
+    "number": "1",
+    "title": "The Sacrifice of Oneness",
+    "page": "775"
+  },
+  {
+    "chapterId": "26",
+    "number": "2",
+    "title": "Release from Every Problem",
+    "page": "778"
+  },
+  {
+    "chapterId": "26",
+    "number": "3",
+    "title": "The Borderland",
+    "page": "780"
+  },
+  {
+    "chapterId": "26",
+    "number": "4",
+    "title": "Where Sin Once Was",
+    "page": "782"
+  },
+  {
+    "chapterId": "26",
+    "number": "5",
+    "title": "The Little Hindrance",
+    "page": "784"
+  },
+  {
+    "chapterId": "26",
+    "number": "6",
+    "title": "Your Only Friend",
+    "page": "787"
+  },
+  {
+    "chapterId": "26",
+    "number": "7",
+    "title": "A Review of the Laws of Healing",
+    "page": "788"
+  },
+  {
+    "chapterId": "26",
+    "number": "8",
+    "title": "The Immediacy of Salvation",
+    "page": "794"
+  },
+  {
+    "chapterId": "26",
+    "number": "9",
+    "title": "For They Have Come",
+    "page": "797"
+  },
+  {
+    "chapterId": "26",
+    "number": "10",
+    "title": "Realizing Their Presence",
+    "page": "799"
+  },
+  {
+    "chapterId": "27",
+    "number": null,
+    "title": "Healing the Ancient Dream",
+    "page": "803"
+  },
+  {
+    "chapterId": "27",
+    "number": "1",
+    "title": "The Picture of Crucifixion",
+    "page": "803"
+  },
+  {
+    "chapterId": "27",
+    "number": "2",
+    "title": "Proof ot Innocence",
+    "page": "807"
+  },
+  {
+    "chapterId": "27",
+    "number": "3",
+    "title": "Leaving Correction to Him",
+    "page": "810"
+  },
+  {
+    "chapterId": "27",
+    "number": "4",
+    "title": "Power Unopposed",
+    "page": "812"
+  },
+  {
+    "chapterId": "27",
+    "number": "5",
+    "title": "The Quiet Answer",
+    "page": "814"
+  },
+  {
+    "chapterId": "27",
+    "number": "6",
+    "title": "The Transfer of Your Healing",
+    "page": "816"
+  },
+  {
+    "chapterId": "27",
+    "number": "7",
+    "title": "Sin's Witness",
+    "page": "820"
+  },
+  {
+    "chapterId": "27",
+    "number": "8",
+    "title": "The Cause of Suffering",
+    "page": "822"
+  },
+  {
+    "chapterId": "27",
+    "number": "9",
+    "title": "The Dreamer of the Dream",
+    "page": "824"
+  },
+  {
+    "chapterId": "27",
+    "number": "10",
+    "title": "Laughing Away the Tiny, Mad idea",
+    "page": "827"
+  },
+  {
+    "chapterId": "27",
+    "number": "11",
+    "title": "The Secret of Salvation",
+    "page": "829"
+  },
+  {
+    "chapterId": "28",
+    "number": null,
+    "title": "The Little Gap",
+    "page": "831"
+  },
+  {
+    "chapterId": "28",
+    "number": "1",
+    "title": "Remembering the Present",
+    "page": "831"
+  },
+  {
+    "chapterId": "28",
+    "number": "2",
+    "title": "Reversing Effect and Cause",
+    "page": "835"
+  },
+  {
+    "chapterId": "28",
+    "number": "3",
+    "title": "The Feast of Plenty",
+    "page": "839"
+  },
+  {
+    "chapterId": "28",
+    "number": "4",
+    "title": "Separating the Dreamer from the Dream",
+    "page": "842"
+  },
+  {
+    "chapterId": "28",
+    "number": "5",
+    "title": "Share Not Evil Dreams",
+    "page": "844"
+  },
+  {
+    "chapterId": "28",
+    "number": "6",
+    "title": "The Secret Vow",
+    "page": "846"
+  },
+  {
+    "chapterId": "28",
+    "number": "7",
+    "title": "The Ark of Safety",
+    "page": "848"
+  },
+  {
+    "chapterId": "29",
+    "number": null,
+    "title": "The Worship of Idols",
+    "page": "851"
+  },
+  {
+    "chapterId": "29",
+    "number": "1",
+    "title": "The Cautious Friendship",
+    "page": "851"
+  },
+  {
+    "chapterId": "29",
+    "number": "2",
+    "title": "The Coming of the Guest",
+    "page": "853"
+  },
+  {
+    "chapterId": "29",
+    "number": "3",
+    "title": "The Body's Nothingness",
+    "page": "855"
+  },
+  {
+    "chapterId": "29",
+    "number": "4",
+    "title": "The Spark That Shines within the Dream",
+    "page": "857"
+  },
+  {
+    "chapterId": "29",
+    "number": "5",
+    "title": "Dream Roles",
+    "page": "858"
+  },
+  {
+    "chapterId": "29",
+    "number": "6",
+    "title": "The Changeless Dwelling Place",
+    "page": "860"
+  },
+  {
+    "chapterId": "29",
+    "number": "7",
+    "title": "Swear Not to Die",
+    "page": "862"
+  },
+  {
+    "chapterId": "29",
+    "number": "8",
+    "title": "Seek Not Outside Yourself",
+    "page": "864"
+  },
+  {
+    "chapterId": "29",
+    "number": "9",
+    "title": "What Is an Idol?",
+    "page": "867"
+  },
+  {
+    "chapterId": "29",
+    "number": "10",
+    "title": "The Dream of Judgment",
+    "page": "869"
+  },
+  {
+    "chapterId": "30",
+    "number": null,
+    "title": "The New Beginning",
+    "page": "873"
+  },
+  {
+    "chapterId": "30",
+    "number": "1",
+    "title": "Rules for Decision",
+    "page": "873"
+  },
+  {
+    "chapterId": "30",
+    "number": "2",
+    "title": "Your Boundless Will",
+    "page": "879"
+  },
+  {
+    "chapterId": "30",
+    "number": "3",
+    "title": "The Search for Completion",
+    "page": "880"
+  },
+  {
+    "chapterId": "30",
+    "number": "4",
+    "title": "The Thought God Holds of You",
+    "page": "882"
+  },
+  {
+    "chapterId": "30",
+    "number": "5",
+    "title": "The Toys of Fear",
+    "page": "883"
+  },
+  {
+    "chapterId": "30",
+    "number": "6",
+    "title": "The Cost of Idols",
+    "page": "885"
+  },
+  {
+    "chapterId": "30",
+    "number": "7",
+    "title": "Forgiveness Is Always Justified",
+    "page": "888"
+  },
+  {
+    "chapterId": "30",
+    "number": "8",
+    "title": "One Changeless Meaning",
+    "page": "891"
+  },
+  {
+    "chapterId": "30",
+    "number": "9",
+    "title": "Changeless Reality",
+    "page": "894"
+  },
+  {
+    "chapterId": "31",
+    "number": null,
+    "title": "The Final Vision",
+    "page": "897"
+  },
+  {
+    "chapterId": "31",
+    "number": "1",
+    "title": "The Simplicity of Salvation",
+    "page": "897"
+  },
+  {
+    "chapterId": "31",
+    "number": "2",
+    "title": "The Passing of an Ancient Learning",
+    "page": "901"
+  },
+  {
+    "chapterId": "31",
+    "number": "3",
+    "title": "The Sleeping Prisoner",
+    "page": "904"
+  },
+  {
+    "chapterId": "31",
+    "number": "4",
+    "title": "The Real Alternative",
+    "page": "907"
+  },
+  {
+    "chapterId": "31",
+    "number": "5",
+    "title": "The Concept of the Self",
+    "page": "910"
+  },
+  {
+    "chapterId": "31",
+    "number": "6",
+    "title": "Recognizing the Spirit",
+    "page": "916"
+  },
+  {
+    "chapterId": "31",
+    "number": "7",
+    "title": "Focusing on the Good",
+    "page": "918"
+  },
+  {
+    "chapterId": "31",
+    "number": "8",
+    "title": "The Savior's Vision",
+    "page": "919"
+  },
+  {
+    "chapterId": "31",
+    "number": "9",
+    "title": "Choose Once Again",
+    "page": "922"
+  }
+]

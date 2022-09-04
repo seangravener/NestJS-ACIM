@@ -5,7 +5,7 @@ import {
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Chapter } from './chapter.entity';
+import { Chapter } from '../../api/chapter/chapter.entity';
 
 @Entity()
 export class Section {
