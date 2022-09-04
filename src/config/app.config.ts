@@ -1,8 +1,9 @@
-import { version, name, description } from '../../package.json';
+import { version, name, description, title } from '../../package.json';
 
+// App metadata
 export default () => ({
-  // App metadata
-  version: version,
-  name: name,
-  description: description,
+  title,
+  description,
+  name,
+  version,
 });

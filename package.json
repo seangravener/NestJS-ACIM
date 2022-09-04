@@ -1,7 +1,8 @@
 {
   "name": "nest-js-acim",
+  "title": "ACIM Restful API Demo",
   "version": "0.0.1",
-  "description": "Demo API",
+  "description": "A Restful API demo using NestJS",
   "author": "Sean Gravener",
   "private": true,
   "license": "UNLICENSED",

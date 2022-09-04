@@ -1,6 +1,5 @@
-POST http://localhost:3000/contents/add/collection
+POST http://localhost:3000/collection/add
 content-type: application/json
-
 
 [
   {
