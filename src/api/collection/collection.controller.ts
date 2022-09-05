@@ -1,10 +1,9 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { Chapter } from '../chapter/chapter.entity';
+
 import { ChapterService } from '../chapter/chapter.service';
-import { Section } from '../section/section.entity';
 import { SectionService } from '../section/section.service';
-import { Collection } from '../shared/collection.type';
-import { DtoCollection } from './collection.dto';
+
+import { DtoCollection, EntityCollection } from './collection.dto';
 
 @Controller('/collection')
 export class CollectionController {
@@ -16,8 +15,8 @@ export class CollectionController {
   @Post('/add')
   async addCollection(
     @Body() dtoCollection: DtoCollection,
-  ): Promise<DtoCollection> {
-    const results: Collection<Chapter | Section> = [];
+  ): Promise<EntityCollection> {
+    const results: EntityCollection = [];
 
     // @todo move to service
     for (const dto of dtoCollection) {
